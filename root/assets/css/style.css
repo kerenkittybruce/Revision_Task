@@ -1,0 +1,137 @@
+/*-- Home --*/
+body{
+    color:whitesmoke;
+    font-family: fantasy;
+    background-image: url("/assets/images/1002-4312x2868.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+/*-- Navbar --*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(196, 227, 254, 0.908);
+}
+
+li{
+    float:left;
+}
+
+li a{
+    display:block;
+    color:rgba(0, 0, 255, 0.866);
+    text-decoration: none;
+    padding: 16px 32px;
+    text-align: center;
+    justify-content:stretch;
+    border-right: 3px dotted blue;
+}
+
+li a:hover{
+    background-color:rgba(0, 0, 255, 0.866);
+    color: rgb(214, 245, 255);
+    text-decoration: underline 2px solid rgb(0, 0, 50);
+}
+
+/*-- Home Page --*/
+#home{
+    background-color:rgb(114, 189, 255);
+    margin: 10rem;
+    padding: 5rem;
+    border-radius: 5%;
+}
+
+.task-title{
+    color:blue;
+    text-decoration: double;
+    text-align:center;
+    font-size: 30px;
+    font-weight: light;
+}
+
+.task-2-title{
+    color:rgb(39, 137, 222);
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;;
+}
+
+.pic{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 15%;
+    position:relative;
+}
+
+.home-words{
+    padding: 2rem;
+    text-align: center;
+    border-radius: 15px;
+}
+
+/*--Contact Me --*/
+#contactme{
+    background-color:aliceblue;
+    margin: 10px;
+    padding: 5px;
+    border: 2px inset blue;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+}
+
+.my-form{
+    margin: 5px;
+    padding: 5px;
+}
+
+.form-title{
+    color:rgb(60, 60, 255);
+    text-align: center;
+}
+
+#fname, #email, #message{
+    color:blue;
+}
+
+input, textarea {
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 5.5px;
+    text-align: center;
+}
+
+input,textarea:focus{
+    color:aliceblue;
+}
+
+input [type="submit"]{
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.submit{
+    text-align: center;
+    text-decoration: none;
+    color:rgb(87, 87, 254);
+    margin-top: 20px;
+    border-radius: 5.5px;
+}
+
+.submit:hover{
+    background-color:rgb(130, 130, 255);
+    color: blue;
+}

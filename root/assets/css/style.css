@@ -87,7 +87,7 @@ li a:hover{
     padding: 5px;
     border: 2px inset blue;
     border-radius: 10px;
-    box-shadow: 0 3px 10px var(--secondary-shadow);
+    box-shadow: 5px 10px black;;
 }
 
 .my-form{
@@ -100,8 +100,9 @@ li a:hover{
     text-align: center;
 }
 
-#fname, #email, #message{
+label{
     color:blue;
+    text-align:center;
 }
 
 input, textarea {
@@ -114,7 +115,12 @@ input, textarea {
 }
 
 input,textarea:focus{
-    color:aliceblue;
+    color:black;
+}
+
+.text-area:focus{
+    color:black;
+    visibility: visible;
 }
 
 input [type="submit"]{
@@ -133,5 +139,59 @@ input [type="submit"]{
 
 .submit:hover{
     background-color:rgb(130, 130, 255);
-    color: blue;
+    color: whitesmoke;
 }
+
+/*-- Flexbox Activity --*/
+.flexbox-act{
+    width:100%;
+}
+
+.flexbox-sect{
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox{
+    text-align: center;
+    color:blue;
+    background-color:aliceblue;
+    border-radius: 5px;
+}
+
+.flex-column-1{
+    flex:1;
+    flex-direction: column;
+    width: 25rem;
+}
+
+.flex-column{
+    flex:2;
+    flex-direction: column;
+    width: 35rem;
+}
+
+.heading-flex{
+    background-color:aliceblue;
+    color:blue;
+    border-radius: 5px;
+}
+
+.moon{
+    border-radius: 5px;
+    box-shadow: 5px 10px black;
+}
+
+/*-- Footer section --*/
+.footer{
+    background-color:rgb(155, 206, 251);
+    color:black;
+    text-align:center;
+}
+
+.copy{
+    text-align: center;
+    color:black;
+    font-size: 25px;
+}
+
